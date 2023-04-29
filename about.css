@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Lato:ital,wght@0,400;0,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -97,6 +98,7 @@ body {
 .headline {
   background-image: url("images/hero-bg-desktop.png");
   width: 100%;
+
   /* height:900px; */
   display: flex;
   flex-flow: column;
@@ -113,24 +115,29 @@ body {
   align-items: flex-start;
   justify-content: center;
   gap: 12px;
-  width: 920px;
-  margin: 10rem;
+
+  /* width: 920px;
+  margin: 10rem; */
 }
 
 h2 {
+  /* margin-top: 10rem; */
+  padding: 50px 650px;
   font-size: 52px;
   color: #ec5242;
-  background-image: linear-gradient(
-    -225deg,
-    #a01e10 0%,
-    #2a0c4b 29%,
-    #ec5242 67%,
-    #ec5242 100%
-  );
+  background-image:
+    linear-gradient(
+      -225deg,
+      #a01e10 0%,
+      #2a0c4b 29%,
+      #ec5242 67%,
+      #ec5242 100%
+    );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  justify-content: center;
 }
 
 .line {
@@ -141,11 +148,14 @@ h2 {
   color: #272a31;
   line-height: 3rem;
   font-size: 24px;
-  margin: 20px;
+
+  /* margin: 20px; */
   background-color: #d3d3d300;
   box-shadow: 2px 2px 6px #b4aeae;
-  height: 200px;
-  width: 70rem;
+
+  /* height: 200px;
+  width: 70rem; */
+  max-width: 50%;
   border-radius: 4px;
   padding: 18px 2px;
   opacity: 5;
@@ -155,15 +165,16 @@ h2 {
 }
 
 .venue {
-  margin-top: 20px;
   font-size: 24px;
+  padding: 50px 650px;
 }
 
 .link-venue {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bolder;
   color: #272a31;
   align-self: center;
+  padding-bottom: 100px;
 }
 
 .logo-section {
@@ -257,6 +268,7 @@ footer {
 
 .about-footer {
   background: #272a31;
+
   /* width: 100vw; */
 }
 
@@ -301,33 +313,30 @@ footer {
 
   .menu-icon {
     display: block;
-    font-size: 50px;
+    font-size: 40px;
     padding: 1%;
     color: black;
-    margin-top: 10rem;
+
+    /* margin-top: 10rem; */
+    margin-right: 24rem;
   }
 
   .headline {
     background-image: url("images/hero-bg-mobile.png");
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-size: cover;
-    max-width: 760px;
-    height: 50rem;
   }
 
   .headline_container {
-    max-width: 45rem;
-    margin: 150px 180px 289px 15px;
+    margin-right: 0;
   }
 
   h2 {
+    padding: 50px 40px;
     font-size: 24px;
     color: #ec5242;
-    max-width: 35rem;
-    margin-left: 12rem;
+
+    /* max-width: 35rem; */
     justify-content: center;
   }
 
@@ -335,27 +344,30 @@ footer {
     color: #272a31;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 3rem;
+
+    /* margin-left: 3rem; */
     background-color: #d3d3d300;
     box-shadow: 2px 2px 6px #b4aeae;
-    height: 200px;
-    max-width: 28rem;
+
+    /* height: 200px;
+    max-width: 28rem; */
     border-radius: 4px;
-    /* padding: 18px 2px; */
     opacity: 5;
-    /* align-self: center; */
     border: 3px solid #d3d3d3;
+    max-width: 24rem;
     text-align: center;
     line-height: 2rem;
-    justify-content: center;
   }
 
   .venue {
-    margin-top: 20px;
-    font-size: 18px;
-    margin-left: 12rem;
+    margin-top: 16px;
+    font-size: 14px;
+    padding: 0 50px;
+
+    /*
+    max-width: 32rem; */
+
     text-align: center;
-    max-width: 25rem;
   }
 
   .link-venue {
@@ -363,7 +375,8 @@ footer {
     font-weight: bolder;
     color: #272a31;
     text-align: center;
-    max-width: 25rem;
+    max-width: fit-content;
+    max-width: 24rem;
   }
 
   .logo-section {
@@ -376,11 +389,13 @@ footer {
     border-bottom: 2px solid #fafafa;
     font-weight: 700;
     max-width: 45rem;
-    margin-right: 130px;
+
+    /* margin-right: 130px; */
   }
 
   .ict-logo {
     color: #272a31;
+
     /* margin: 20px; */
     text-align: center;
     font-size: 24px;
@@ -396,16 +411,7 @@ footer {
   .pass-section {
     display: flex;
     padding-block: 33px;
-    flex-flow: column;
-    text-align: center;
     align-items: center;
-    gap: 35px;
-    padding-inline: 10.5px;
-    border-bottom: 2px solid #fafafa;
-    font-weight: 700;
-    margin-top: 30px;
-    border-top: 1px solid #d3d3d3;
-    margin-right: 130px;
   }
 
   .pass-meet {
@@ -417,40 +423,43 @@ footer {
   .pass-conf {
     color: #272a31;
     margin: 20px;
-    align-self: center;
     text-align: center;
     font-size: 24px;
   }
 
   .partner-section {
+    display: none;
     display: flex;
-    background-color: #272a31;
     justify-content: center;
-    font-size: 16px;
-    width: 45rem;
-    padding: 40px;
+    font-size: 12px;
+    background-color: #272a31;
+    max-width: 35rem;
   }
+
   .partner-ul {
-    display: flex; 
-   gap: 5px;
-   width: 25rem;
-   padding-top: 10px;
-   font-size: 12px;
-   justify-content: center;
- 
-   /* margin: auto; */
- }
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+    font-size: 12px;
+    justify-content: center;
 
- .ul-container{
-  margin-top: 20px;
- }
+    /* margin: auto; */
+  }
 
- .partner-li {
-   /* padding: 30px 0; */
-   max-width: 25rem;
-   margin-right: 130px;
- }
+  .pat-title {
+    align-self: center;
+  }
 
+  .ul-container {
+    /* margin-top: 20px; */
+  }
+
+  .partner-li {
+    /* padding: 30px 0; */
+
+    /* max-width: 25rem;
+   margin-right: 130px; */
+  }
 
   .partner-title {
     color: #d3d3d3;
@@ -459,18 +468,20 @@ footer {
   footer {
     width: 45rem;
     height: 10rem;
+
     /* padding: 50px 0px; */
-   
+
     font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     background: #d3d3d3;
   }
 
   .about-footer {
     background: #d3d3d300;
+
     /* width: 100vw; */
   }
 
@@ -483,23 +494,22 @@ footer {
     position: fixed;
     z-index: 1;
     padding-top: 60px;
+    padding-left: 40px;
     margin-top: 0;
     width: 100%;
     height: 100%;
     color: white;
-    background-color: rgba(85, 101, 243, 0.7);
-    background-color: rgba(41, 58, 208, 0.8);
+    background-color: rgba(21, 22, 30, 0.7);
+    background-color: rgba(30, 31, 37, 0.8);
     backdrop-filter: blur(5px);
-    font-family: "Poppins", sans-serif;
+    font-family: "Lato", sans-serif;
     transition: all 0.3s linear;
   }
 
   .mobile-list {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-
-    /* margin: auto; */
+    gap: 20px;
     padding: 20px 0;
     width: 80%;
     font-size: 2rem;
@@ -514,10 +524,10 @@ footer {
 
   .close-icon {
     color: #fff;
-    font-size: 2rem;
+    font-size: 4rem;
     cursor: pointer;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 0.5rem;
+    right: 3rem;
   }
 }

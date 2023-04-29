@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&family=Lato:ital,wght@0,400;0,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -78,6 +79,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
   /* padding-inline: 15px; */
 }
 
@@ -115,15 +117,9 @@ body {
   align-items: flex-start;
   justify-content: center;
   gap: 12px;
-  /* position: absolute; */
   margin-left: 12rem;
   margin-top: 5rem;
-  width: 100%
-
-  
-
-  /* height: 268px; */
-  /* margin: 150px 260px 289px 260px; */
+  width: 100%;
 }
 
 .headline-para {
@@ -134,13 +130,14 @@ body {
 h1 {
   font-size: 52px;
   color: #ec5242;
-  background-image: linear-gradient(
-    -225deg,
-    #a01e10 0%,
-    #2a0c4b 29%,
-    #ec5242 67%,
-    #ec5242 100%
-  );
+  background-image:
+    linear-gradient(
+      -225deg,
+      #a01e10 0%,
+      #2a0c4b 29%,
+      #ec5242 67%,
+      #ec5242 100%
+    );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -159,8 +156,8 @@ h1 {
   font-size: 32px;
   color: #272a31;
   font-weight: 700;
-
 }
+
 .date {
   margin-top: 60px;
   color: #272a31;
@@ -392,27 +389,27 @@ footer {
     background-image: url("images/hero-bg-mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
-  
   }
 
   .headline_container {
     gap: 12px;
     margin: auto;
-   width: 44rem;
-    
+    margin-right: 0;
+    padding-top: 60px;
   }
 
   h1 {
     font-size: 32px;
     color: #ec5242;
-    /* max-width: 35rem; */
-    background-image: linear-gradient(
-      -225deg,
-      #a01e10 0%,
-      #2a0c4b 29%,
-      #ec5242 67%,
-      #ec5242 100%
-    );
+    max-width: 35rem;
+    background-image:
+      linear-gradient(
+        -225deg,
+        #a01e10 0%,
+        #2a0c4b 29%,
+        #ec5242 67%,
+        #ec5242 100%
+      );
   }
 
   .headline-para {
@@ -425,56 +422,58 @@ footer {
     font-size: 24px;
     border: 3px solid #d3d3d3;
     padding: 5px;
-    width: 28rem;
- 
+    max-width: fit-content;
   }
 
   .venue {
     font-size: 32px;
     font-weight: bolder;
     color: #272a31;
-    max-width: 32rem;
+    max-width: fit-content;
   }
+
   .date {
     margin-top: 20px;
     color: #272a31;
-    max-width: 35rem;
+    max-width: fit-content;
   }
 
   .dark-section {
-    width:  768px;
+    max-width: fit-content;
     background-image: url("../../images/pattern-bg.png");
     background-repeat: repeat;
     background-color: #272a31;
     color: #d3d3d3;
-    height: 50rem;
-    display: flex;
-    flex-flow: column;
+
+    /* display: flex;
+    flex-flow: column; */
     justify-content: center;
-   
+    margin-right: 0;
     gap: 10px;
+
     /* padding: 10px; */
-    
   }
 
   .section-title {
     font-weight: bold;
     font-size: 18px;
     font-family: "COCOGOOSE", sans-serif;
-    margin-top: 10px;
+    margin-top: 0;
     justify-content: center;
-    margin-right: 200px;
+    margin-right: 0;
   }
 
   .activities .activity-ctn {
     display: flex;
     flex-flow: column;
     justify-content: center;
-  width: 42rem;
+    max-width: fit-content;
     padding-inline: max(8px, 2.3vw);
     padding-block: max(15.16px, 2.1vh);
     margin-top: 30px;
-    margin-left: 5rem;
+    margin-left: 0.5rem;
+
+    /* padding-right: 0; */
   }
 
   .activities .activity {
@@ -482,7 +481,8 @@ footer {
     grid-template-columns: 1fr 1.14fr 3.375fr;
     gap: 12px;
     align-items: center;
-    max-width: 23rem;
+
+    /* max-width: 23rem; */
     min-height: 65px;
     background-color: #3b3e45c2;
     padding-inline: 11px;
@@ -494,8 +494,6 @@ footer {
   .activities .activity-title {
     font-size: 18px;
     color: #ec5242;
-   
-  
   }
 
   .activities .activity-descrip {
@@ -579,33 +577,29 @@ footer {
     background-color: #272a31;
     color: #d3d3d3;
     justify-content: center;
-    font-size: 16px;
-    width: 45rem;
+    font-size: 12px;
+    max-width: fit-content;
     padding: 40px;
   }
 
   .partner-ul {
     display: flex;
     gap: 5px;
-    width: 25rem;
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 12px;
     justify-content: center;
     margin: auto;
   }
 
   .partner-li {
     /* padding: 30px 0; */
-    max-width: 25rem;
   }
 
   footer {
-    width: 45rem;
-    height: 10rem;
+    max-width: fit-content;
     padding: 80px 0;
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
-
     justify-content: center;
     gap: 20px;
     background: #d3d3d3;
@@ -617,7 +611,7 @@ footer {
   }
 
   .footer-about {
-    font-size: 18px;
+    font-size: 14px;
     background: #272a31;
     color: #d3d3d3;
   }

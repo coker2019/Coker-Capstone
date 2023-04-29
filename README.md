@@ -58,7 +58,7 @@ key features of the application:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]( https://coker2019.github.io/Coker_Portfolio/)
+- [Live Demo Link]( )
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,7 +136,8 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+Templete used in project provided by (Microverse).
+Original design idea by Cindy Shin https://www.behance.net/adagio07 
 
 
 
