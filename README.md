@@ -23,7 +23,7 @@ It a project to sell tickets for an Ict conference for students
 in south-south Nigeria.
 it could be used for other topics
 Please check out this loom recording.
-https://www.loom.com/share/eed2e3762e1349ce999708f63e74670d
+https://www.loom.com/share/c42499119e394bfe83d835583462e037
 
 
 

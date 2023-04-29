@@ -130,14 +130,13 @@ body {
 h1 {
   font-size: 52px;
   color: #ec5242;
-  background-image:
-    linear-gradient(
-      -225deg,
-      #a01e10 0%,
-      #2a0c4b 29%,
-      #ec5242 67%,
-      #ec5242 100%
-    );
+  background-image: linear-gradient(
+    -225deg,
+    #a01e10 0%,
+    #2a0c4b 29%,
+    #ec5242 67%,
+    #ec5242 100%
+  );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -214,6 +213,12 @@ h1 {
 .activities .activity-descrip {
   font-size: 18px;
   text-align: center;
+}
+
+.activity:hover {
+  border: 1px solid #fff;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.02);
 }
 
 .Join-more {
@@ -301,7 +306,8 @@ h1 {
 
 .partner-ul {
   display: flex;
-  gap: 50px;
+  justify-content: center;
+  gap: 30px;
   margin: auto;
   width: 33%;
   padding-top: 10px;
@@ -321,12 +327,20 @@ footer {
   display: flex;
   justify-content: center;
   gap: 300px;
-  background: #d3d3d3;
+  background: #fff;
   flex-direction: row;
 }
 
 .footer-logo {
   font-size: 24px;
+}
+
+.right-footer {
+  margin-top: 3rem;
+}
+
+.footer-img {
+  margin-top: 2rem;
 }
 
 .footer-about {
@@ -402,14 +416,13 @@ footer {
     font-size: 32px;
     color: #ec5242;
     max-width: 35rem;
-    background-image:
-      linear-gradient(
-        -225deg,
-        #a01e10 0%,
-        #2a0c4b 29%,
-        #ec5242 67%,
-        #ec5242 100%
-      );
+    background-image: linear-gradient(
+      -225deg,
+      #a01e10 0%,
+      #2a0c4b 29%,
+      #ec5242 67%,
+      #ec5242 100%
+    );
   }
 
   .headline-para {
@@ -574,25 +587,26 @@ footer {
   }
 
   .partner-section {
+    display: none;
     background-color: #272a31;
     color: #d3d3d3;
     justify-content: center;
     font-size: 12px;
     max-width: fit-content;
-    padding: 40px;
+    padding: 20px;
   }
 
   .partner-ul {
-    display: flex;
-    gap: 5px;
+    gap: 2px;
     padding-top: 10px;
-    font-size: 12px;
+    font-size: 8px;
     justify-content: center;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .partner-li {
     /* padding: 30px 0; */
+    gap: 2px;
   }
 
   footer {
@@ -611,7 +625,7 @@ footer {
   }
 
   .footer-about {
-    font-size: 14px;
+    font-size: 12px;
     background: #272a31;
     color: #d3d3d3;
   }
