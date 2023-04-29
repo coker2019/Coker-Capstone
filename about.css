@@ -125,13 +125,14 @@ h2 {
   padding: 50px 650px;
   font-size: 52px;
   color: #ec5242;
-  background-image: linear-gradient(
-    -225deg,
-    #a01e10 0%,
-    #2a0c4b 29%,
-    #ec5242 67%,
-    #ec5242 100%
-  );
+  background-image:
+    linear-gradient(
+      -225deg,
+      #a01e10 0%,
+      #2a0c4b 29%,
+      #ec5242 67%,
+      #ec5242 100%
+    );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -344,6 +345,7 @@ footer {
     font-size: 18px;
     font-weight: 500;
     min-width: 80%;
+
     /* margin-left: 3rem; */
     background-color: #d3d3d3;
     box-shadow: 2px 2px 6px #b4aeae;
@@ -353,6 +355,7 @@ footer {
     border-radius: 4px;
     opacity: 5;
     border: 3px solid #d3d3d3;
+
     /* max-width: 24rem; */
     text-align: center;
     line-height: 2rem;
@@ -375,6 +378,7 @@ footer {
     color: #272a31;
     text-align: center;
     max-width: fit-content;
+
     /* max-width: 24rem; */
   }
 
@@ -387,6 +391,7 @@ footer {
     padding-inline: 10.5px;
     border-bottom: 2px solid #fafafa;
     font-weight: 700;
+
     /* max-width: 45rem; */
 
     /* margin-right: 130px; */
@@ -404,6 +409,7 @@ footer {
     /* width: 50%; */
     color: #272a31;
     font-size: 18px;
+
     /* width: 15rem; */
   }
 
@@ -430,7 +436,6 @@ footer {
     flex-direction: column;
     background-color: #272a31;
     color: #d3d3d3;
-
     font-size: 24px;
   }
 

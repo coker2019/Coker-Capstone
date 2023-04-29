@@ -130,13 +130,14 @@ body {
 h1 {
   font-size: 52px;
   color: #ec5242;
-  background-image: linear-gradient(
-    -225deg,
-    #a01e10 0%,
-    #2a0c4b 29%,
-    #ec5242 67%,
-    #ec5242 100%
-  );
+  background-image:
+    linear-gradient(
+      -225deg,
+      #a01e10 0%,
+      #2a0c4b 29%,
+      #ec5242 67%,
+      #ec5242 100%
+    );
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -416,13 +417,14 @@ footer {
     font-size: 32px;
     color: #ec5242;
     max-width: 35rem;
-    background-image: linear-gradient(
-      -225deg,
-      #a01e10 0%,
-      #2a0c4b 29%,
-      #ec5242 67%,
-      #ec5242 100%
-    );
+    background-image:
+      linear-gradient(
+        -225deg,
+        #a01e10 0%,
+        #2a0c4b 29%,
+        #ec5242 67%,
+        #ec5242 100%
+      );
   }
 
   .headline-para {
@@ -601,6 +603,7 @@ footer {
     padding-top: 10px;
     font-size: 8px;
     justify-content: center;
+
     /* margin: auto; */
   }
 
