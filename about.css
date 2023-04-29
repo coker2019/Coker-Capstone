@@ -410,13 +410,12 @@ footer {
 
   .pass-section {
     display: flex;
-    padding-block: 33px;
     align-items: center;
   }
 
   .pass-meet {
     flex-flow: row;
-    gap: 45x;
+    gap: 45px;
     justify-content: center;
   }
 
