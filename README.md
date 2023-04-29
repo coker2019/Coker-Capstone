@@ -136,7 +136,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-Templete used in project provided by (Microverse).
+Template used in project provided by (Microverse).
 Original design idea by Cindy Shin https://www.behance.net/adagio07 
 
 
