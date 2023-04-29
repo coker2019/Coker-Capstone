@@ -327,7 +327,7 @@ footer {
   font-size: 16px;
   display: flex;
   justify-content: center;
-  gap: 300px;
+  gap: 60px;
   background: #fff;
   flex-direction: row;
 }
@@ -337,11 +337,11 @@ footer {
 }
 
 .right-footer {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 .footer-img {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .footer-about {
@@ -603,22 +603,17 @@ footer {
     padding-top: 10px;
     font-size: 8px;
     justify-content: center;
-
-    /* margin: auto; */
   }
 
   .partner-li {
-    /* padding: 30px 0; */
     gap: 2px;
   }
 
   footer {
-    max-width: fit-content;
-    padding: 80px 0;
     font-size: 14px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     background: #d3d3d3;
     flex-direction: row;
   }

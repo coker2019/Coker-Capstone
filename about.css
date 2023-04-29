@@ -98,8 +98,6 @@ body {
 .headline {
   background-image: url("images/hero-bg-desktop.png");
   width: 100%;
-
-  /* height:900px; */
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -148,13 +146,8 @@ h2 {
   color: #272a31;
   line-height: 3rem;
   font-size: 24px;
-
-  /* margin: 20px; */
   background-color: #d3d3d300;
   box-shadow: 2px 2px 6px #b4aeae;
-
-  /* height: 200px;
-  width: 70rem; */
   max-width: 50%;
   border-radius: 4px;
   padding: 18px 2px;
@@ -262,14 +255,12 @@ footer {
   font-size: 16px;
   display: flex;
   justify-content: center;
-  gap: 300px;
+  gap: 60px;
   flex-direction: row;
 }
 
 .about-footer {
   background: #272a31;
-
-  /* width: 100vw; */
 }
 
 .white-footer {
@@ -316,8 +307,6 @@ footer {
     font-size: 40px;
     padding: 1%;
     color: black;
-
-    /* margin-top: 10rem; */
     margin-right: 24rem;
   }
 
@@ -335,8 +324,6 @@ footer {
     padding: 50px 40px;
     font-size: 24px;
     color: #ec5242;
-
-    /* max-width: 35rem; */
     justify-content: center;
   }
 
@@ -345,18 +332,11 @@ footer {
     font-size: 18px;
     font-weight: 500;
     min-width: 80%;
-
-    /* margin-left: 3rem; */
     background-color: #d3d3d3;
     box-shadow: 2px 2px 6px #b4aeae;
-
-    /* height: 200px;
-    max-width: 28rem; */
     border-radius: 4px;
     opacity: 5;
     border: 3px solid #d3d3d3;
-
-    /* max-width: 24rem; */
     text-align: center;
     line-height: 2rem;
   }
@@ -365,10 +345,6 @@ footer {
     margin-top: 16px;
     font-size: 14px;
     padding: 0 50px;
-
-    /*
-    max-width: 32rem; */
-
     text-align: center;
   }
 
@@ -378,8 +354,6 @@ footer {
     color: #272a31;
     text-align: center;
     max-width: fit-content;
-
-    /* max-width: 24rem; */
   }
 
   .logo-section {
@@ -391,26 +365,17 @@ footer {
     padding-inline: 10.5px;
     border-bottom: 2px solid #fafafa;
     font-weight: 700;
-
-    /* max-width: 45rem; */
-
-    /* margin-right: 130px; */
   }
 
   .ict-logo {
     color: #272a31;
-
-    /* margin: 20px; */
     text-align: center;
     font-size: 24px;
   }
 
   .about-logo {
-    /* width: 50%; */
     color: #272a31;
     font-size: 18px;
-
-    /* width: 15rem; */
   }
 
   .pass-section {
@@ -456,26 +421,21 @@ footer {
   }
 
   footer {
-    /* width: 45rem; */
     height: 10rem;
-
-    /* padding: 50px 0px; */
-
     font-size: 16px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
     background: #d3d3d3;
   }
 
   .about-footer {
     background: #d3d3d300;
-
-    /* width: 100vw; */
   }
 
   .white-footer {
     color: #272a31;
+    margin-top: 40px;
   }
 
   .mobile-lists {
