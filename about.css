@@ -528,6 +528,6 @@ footer {
     cursor: pointer;
     position: absolute;
     top: 0.5rem;
-    right: 3rem;
+    left: 25rem;
   }
 }
