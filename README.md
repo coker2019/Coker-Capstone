@@ -17,16 +17,15 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Portfolio: setup and mobile first] <a name="about-project"></a>
-The project is my first mobile setup of my portfolio website.
-It contains the header and the headlines section which gives 
-information about me and what i do.
-The work section and the about section are added in this project.
-The work section provides information about my resume.
-The is a contact section that has a form where users that add and sign up.
-The project can display on both mobile and desktop screen.
+# 📖 [MY first capstone project] <a name="about-project"></a>
+The project is my first capstone project.
+It a project to sell tickets for an Ict conference for students 
+in south-south Nigeria.
+it could be used for other topics
+Please check out this loom recording.
+https://www.loom.com/share/b7ba3994e26d4b46bbc341064c2266a4
 
-https://www.loom.com/share/a3a14cb91578492bba7b3e9cab2e9ebe
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,9 +43,7 @@ key features of the application:
 - The app allows user to view information.
 - Accepts data.
 - Gives feedback to users.
-- Allows users to view resume and the languages used
-  to develope the projects.
-- Users can contact me using the contact form.
+- Allows users to view and information.
 - The app displays on both mobile and desktop.
 
 
@@ -58,7 +55,7 @@ key features of the application:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]( https://coker2019.github.io/Coker_Portfolio/)
+- [Live Demo Link](https://coker2019.github.io/Coker-Capstone/ )
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,7 +108,7 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- Addition of an e-library in the system.
+-
 
 
 
@@ -136,7 +133,8 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+Template used in project provided by (Microverse).
+Original design idea by Cindy Shin https://www.behance.net/adagio07 
 
 
 
